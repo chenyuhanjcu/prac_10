@@ -16,6 +16,11 @@ def about():
     return "I am still working on this"
 
 
+@app.route('/scyh')
+def about():
+    return "Page made by scyh"
+
+
 @app.route('/search', methods=['POST', 'GET'])
 def search():
     if request.method == 'POST':
